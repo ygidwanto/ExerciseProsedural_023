@@ -12,3 +12,10 @@ string status(double d)
 	else
 		return "diterima";
 }
+string status2(double r, double n)
+{
+	if (r >= 70 && n >= 80)
+		return "ditolak";
+	else
+		return "ditolak";
+}
